@@ -1,7 +1,7 @@
 body {
     font-family:Roboto; 
     background-color: #4d4d4d;
-    color:#FFFFFF
+    color:#FFFFFF;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:'Oswald', sans-serif;
@@ -22,4 +22,28 @@ header {
 }
 #bio {
     text-align:center;
+}
+.CenteredWords {
+    text-align: center;
+}
+#Technology {
+    color: green;
+}
+#Gaming {
+    color: red;
+}
+#Fashion {
+    color: green;
+}
+#gallery {
+    text-align: center;
+    background-color: #000000;
+    border: 2px solid #C09AEF; 
+    color: #C09AEF;
+}
+#lore {
+    color:#C09AEF;
+    border: 2px solid #C09AEF;
+    padding:10px;
+    background-color: #000000;
 }

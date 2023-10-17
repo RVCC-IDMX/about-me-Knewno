@@ -74,6 +74,12 @@ img {
     max-width:100%; 
 }
 
+/* Professor's additions */
+img {
+    /* This will ensure that all images won't crawl out of their containers. */
+    max-width:100%;
+}
+
 @media screen and (min-width: 60em) {
     figure {
       display: grid;  

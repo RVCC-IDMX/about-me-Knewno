@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,12 +18,12 @@
 
     <header>
         <!-- The headER shows the logo and
-        page title. -->   
+        page title. -->
         <img src="img/logo-96X96 (1).svg" alt="Bob">
-        <h1>About Me</h1> 
+        <h1>About Me</h1>
     </header>
 
-    <main> 
+    <main>
         <!-- the main is where main content lives -->
 
         <section id="hero">
@@ -40,9 +42,47 @@
                 <p>I like to travel</p>
                 <p>I like to shop</p>
                 <p><a href="https://destinytrialsreport.com/report/2/4611686018442936543">
-                Nuno's Trials Report</a></p>
+                        Nuno's Trials Report</a></p>
             </div>
         </section>
+
+        <section id="video">
+            <div id="videowrapper">
+                <h2>A Short Video</h2>
+                <iframe id="myvideo" width="560" height="315"
+                    src="https://youtube.com/embed/5eljYXBJJ5k?si=DVfgLpEclUyVLDxw" frameborder="0" allowfullscreen=""
+                    sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+            </div>
+        </section>
+
+        <style>
+            #videoWrapper iframe {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+            }
+
+            #videoWrapper {
+                position: relative;
+                padding-bottom: 75%;
+            }
+
+            #video {
+                width: 20%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+
+        <style>
+            #myvideo {
+                border: 2px solid #C09AEF;
+                width: 100%;
+            }
+        </style>
+
 
         <!--Hobbies-->
         <section id="hobbies" class="CenteredWords">
@@ -76,64 +116,96 @@
             </figure>
         </section>
 
-        <article></article>
-        <h2 class="CenteredWords">Lit Ipsum</h2>
-            <div id="lore"><p>"Oh, no, sir! He was too good and kind to leave me so. Why, all the morning he was saying to me that, whatever happened, I was to be true; and that even if something quite unforeseen occurred to separate us, I was always to remember that I was pledged to him, and that he would claim his pledge sooner or later. It seemed strange talk for a wedding-morning, but what has happened since gives a meaning to it."</p>
+        <article>
+            <h2 class="CenteredWords">Lit Ipsum</h2>
+            <div id="lore">
+                <p>"Oh, no, sir! He was too good and kind to leave me so. Why, all the morning he was saying to me that,
+                    whatever happened, I was to be true; and that even if something quite unforeseen occurred to
+                    separate us, I was always to remember that I was pledged to him, and that he would claim his pledge
+                    sooner or later. It seemed strange talk for a wedding-morning, but what has happened since gives a
+                    meaning to it."</p>
 
-                <p>"Most certainly it does. Your own opinion is, then, that some unforeseen catastrophe has occurred to him?"</p>
-                
-                <p>"Yes, sir. I believe that he foresaw some danger, or else he would not have talked so. And then I think that what he foresaw happened."</p>
-                
+                <p>"Most certainly it does. Your own opinion is, then, that some unforeseen catastrophe has occurred to
+                    him?"</p>
+
+                <p>"Yes, sir. I believe that he foresaw some danger, or else he would not have talked so. And then I
+                    think that what he foresaw happened."</p>
+
                 <p>"But you have no notion as to what it could have been?"</p>
-                
+
                 <p>"None."</p>
-                
+
                 <p>"One more question. How did your mother take the matter?"</p>
-                
+
                 <p>"She was angry, and said that I was never to speak of the matter again."</p>
-                
+
                 <p>"And your father? Did you tell him?"</p>
-                
-                <p>"Yes; and he seemed to think, with me, that something had happened, and that I should hear of Hosmer again. As he said, what interest could anyone have in bringing me to the doors of the church, and then leaving me? Now, if he had borrowed my money, or if he had married me and got my money settled on him, there might be some reason, but Hosmer was very independent about money and never would look at a shilling of mine. And yet, what could have happened? And why could he not write? Oh, it drives me half-mad to think of it, and I can't sleep a wink at night." She pulled a little handkerchief out of her muff and began to sob heavily into it.</p>
-                
-                <p>"I shall glance into the case for you," said Holmes, rising, "and I have no doubt that we shall reach some definite result. Let the weight of the matter rest upon me now, and do not let your mind dwell upon it further. Above all, try to let Mr. Hosmer Angel vanish from your memory, as he has done from your life."</p>
-                
+
+                <p>"Yes; and he seemed to think, with me, that something had happened, and that I should hear of Hosmer
+                    again. As he said, what interest could anyone have in bringing me to the doors of the church, and
+                    then leaving me? Now, if he had borrowed my money, or if he had married me and got my money settled
+                    on him, there might be some reason, but Hosmer was very independent about money and never would look
+                    at a shilling of mine. And yet, what could have happened? And why could he not write? Oh, it drives
+                    me half-mad to think of it, and I can't sleep a wink at night." She pulled a little handkerchief out
+                    of her muff and began to sob heavily into it.</p>
+
+                <p>"I shall glance into the case for you," said Holmes, rising, "and I have no doubt that we shall reach
+                    some definite result. Let the weight of the matter rest upon me now, and do not let your mind dwell
+                    upon it further. Above all, try to let Mr. Hosmer Angel vanish from your memory, as he has done from
+                    your life."</p>
+
                 <p>"Then you don't think I'll see him again?"</p>
-                
+
                 <p>"I fear not."</p>
-                
+
                 <p>"Then what has happened to him?"</p>
-                
-                <p>"You will leave that question in my hands. I should like an accurate description of him and any letters of his which you can spare."</p>
-                
-                <p>"I advertised for him in last Saturday's Chronicle," said she. "Here is the slip and here are four letters from him."</p>
-                
+
+                <p>"You will leave that question in my hands. I should like an accurate description of him and any
+                    letters of his which you can spare."</p>
+
+                <p>"I advertised for him in last Saturday's Chronicle," said she. "Here is the slip and here are four
+                    letters from him."</p>
+
                 <p>"Thank you. And your address?"</p>
-                
+
                 <p>"No. 31 Lyon Place, Camberwell."</p>
-                
+
                 <p>"Mr. Angel's address you never had, I understand. Where is your father's place of business?"</p>
-                
+
                 <p>"He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street."</p>
-                
-                <p>"Thank you. You have made your statement very clearly. You will leave the papers here, and remember the advice which I have given you. Let the whole incident be a sealed book, and do not allow it to affect your life."</p>
-                
-                <p>"You are very kind, Mr. Holmes, but I cannot do that. I shall be true to Hosmer. He shall find me ready when he comes back."</p>
-                
-                <p>For all the preposterous hat and the vacuous face, there was something noble in the simple faith of our visitor which compelled our respect. She laid her little bundle of papers upon the table and went her way, with a promise to come again whenever she might be summoned.</p>
-                
-                <p>Sherlock Holmes sat silent for a few minutes with his fingertips still pressed together, his legs stretched out in front of him, and his gaze directed upward to the ceiling. Then he took down from the rack the old and oily clay pipe, which was to him as a counsellor, and, having lit it, he leaned back in his chair, with the thick blue cloud-wreaths spinning up from him, and a look of infinite languor in his face.</p>
-                
-                <p>"Quite an interesting study, that maiden," he observed. "I found her more interesting than her little problem, which, by the way, is rather a trite one. You will find parallel cases, if you consult my index, in Andover in '77, and there was something of the sort at The Hague last year. Old as is the idea, however, there were one or two details which were new to me. But the maiden herself was most instructive."</p>
-                
+
+                <p>"Thank you. You have made your statement very clearly. You will leave the papers here, and remember
+                    the advice which I have given you. Let the whole incident be a sealed book, and do not allow it to
+                    affect your life."</p>
+
+                <p>"You are very kind, Mr. Holmes, but I cannot do that. I shall be true to Hosmer. He shall find me
+                    ready when he comes back."</p>
+
+                <p>For all the preposterous hat and the vacuous face, there was something noble in the simple faith of
+                    our visitor which compelled our respect. She laid her little bundle of papers upon the table and
+                    went her way, with a promise to come again whenever she might be summoned.</p>
+
+                <p>Sherlock Holmes sat silent for a few minutes with his fingertips still pressed together, his legs
+                    stretched out in front of him, and his gaze directed upward to the ceiling. Then he took down from
+                    the rack the old and oily clay pipe, which was to him as a counsellor, and, having lit it, he leaned
+                    back in his chair, with the thick blue cloud-wreaths spinning up from him, and a look of infinite
+                    languor in his face.</p>
+
+                <p>"Quite an interesting study, that maiden," he observed. "I found her more interesting than her little
+                    problem, which, by the way, is rather a trite one. You will find parallel cases, if you consult my
+                    index, in Andover in '77, and there was something of the sort at The Hague last year. Old as is the
+                    idea, however, there were one or two details which were new to me. But the maiden herself was most
+                    instructive."</p>
+
                 <p>"You appeared to read a good deal upon her which was quite invisible to me," I remarked.</p>
-            </div>    
+            </div>
+        </article>
     </main>
 
     <footer>
-        © 2023 - Nuno Alves 
+        © 2023 - Nuno Alves
     </footer>
 
 </body>
-</html>
 
+</html>

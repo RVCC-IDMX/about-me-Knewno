@@ -121,3 +121,7 @@ img {
         display: block;
     }
 }
+
+#formElements {
+    display: grid;
+}

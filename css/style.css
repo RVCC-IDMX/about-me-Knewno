@@ -4,12 +4,7 @@ body {
     color: #FFFFFF;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-size: 40pt;
 }
@@ -130,5 +125,41 @@ img {
 #contact {
     padding: 1rem;
     max-width: 600px;
-    margin:2rem auto;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2px solid #C09AEF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #000000;
+}
+
+legend {
+    background-color: #C09AEF;
+    color: white;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #C09AEF;
+    color: white;
+    border: 1px solid #4d4d4d;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }

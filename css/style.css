@@ -4,7 +4,12 @@ body {
     color: #FFFFFF;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald', sans-serif;
     font-size: 40pt;
 }
@@ -141,7 +146,10 @@ legend {
     padding: .5em;
 }
 
-#contact input, #contact textarea, #contact select, #contact button {
+#contact input,
+#contact textarea,
+#contact select,
+#contact button {
     padding: .5em;
     font-size: 1rem
 }

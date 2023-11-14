@@ -19,8 +19,18 @@
     <header>
         <!-- The headER shows the logo and
         page title. -->
-        <img src="img/logo-96X96 (1).svg" alt="Bob">
-        <h1>About Me</h1>
+        <nav class="navbar">
+            <div class="logo"> <img src="img/logo-96X96 (1).svg" alt="Bob">
+                <h2>About Me</h2>
+            </div>
+            <div class="nav-links"></div>
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#lit">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -37,6 +47,7 @@
 
         <section id="bio">
             <!-- this is my bio-->
+            <h2>Biography</h2>
             <div>
                 <p>Im an IT major</p>
                 <p>I like to travel</p>
@@ -71,8 +82,8 @@
 
             #video {
                 width: 20%;
-                min-width:300px;
-                max-width:100%;
+                min-width: 300px;
+                max-width: 100%;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -119,8 +130,9 @@
         </section>
 
         <article>
-            <h2 class="CenteredWords">Lit Ipsum</h2>
-            <div id="lore">
+            <div id="lit">
+                <h2 class="CenteredWords">Lit Ipsum</h2>
+
                 <p>"Oh, no, sir! He was too good and kind to leave me so. Why, all the morning he was saying to me that,
                     whatever happened, I was to be true; and that even if something quite unforeseen occurred to
                     separate us, I was always to remember that I was pledged to him, and that he would claim his pledge

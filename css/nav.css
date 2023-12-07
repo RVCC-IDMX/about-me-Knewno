@@ -20,7 +20,7 @@ main {
 
 /* navbar */
 .navbar {
-    background-color: black;
+    background-color: #fffdd0;
     color: white;
     display: flex;
     flex-direction: column;
@@ -50,6 +50,7 @@ main {
     list-style: none;
     display: block;
     padding: 0.5em 0;
+    margin:0px 5px;
 }
 
 /*  
@@ -58,7 +59,8 @@ main {
 */
 .navbar-links a {
     color: white;
-    background-color: black;
+    background-color: #3a4032;
+    border: 1px solid #7c4700;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;

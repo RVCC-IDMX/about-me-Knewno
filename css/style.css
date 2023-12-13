@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
     background-color: #fffdd0;
-    color: #ffff
+    color: white;
 }
 
 h1,
@@ -62,12 +62,12 @@ footer {
     text-align: center;
     background-color: #3a4032;
     border: 3px solid #7c4700;
-    color: #ffff;
+    color: white;
 }
 
 #gallery h2,
 #blog h2 {
-    color: white;
+    color: white
 }
 
 #blog {
@@ -91,7 +91,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 20px;
     }
 
     figure img {

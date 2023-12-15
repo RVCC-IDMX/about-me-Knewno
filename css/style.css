@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
-    background-color: #4d4d4d;
-    color: #FFFFFF;
+    background-color: #fffdd0;
+    color: white;
 }
 
 h1,
@@ -12,11 +12,20 @@ h5,
 h6 {
     font-family: 'Oswald', sans-serif;
     font-size: 40pt;
+    color: #7c4700;
 }
 
 h2 {
     margin: .1em;
     text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: gray;
 }
 
 header {
@@ -25,9 +34,9 @@ header {
 
 #hero,
 footer {
-    color: #C09AEF;
-    border: 2px solid #C09AEF;
-    background-color: #000000;
+    color: #ffff;
+    border: 3px solid #7c4700;
+    background-color: #3a4032;
     text-align: center;
     padding: 10px;
 }
@@ -36,44 +45,44 @@ footer {
     width: 300px;
 }
 
-#bio {
+#bio div {
     text-align: center;
+    padding: 10px;
+    background-color: #3a4032;
+    border: 3px solid #7c4700;
+    max-width: 55%;
+    margin: 0 auto;
+
 }
 
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #7c4700;
 }
 
 .CenteredWords {
     text-align: center;
 }
 
-#Technology {
-    color: green;
-}
-
-#Gaming {
-    color: red;
-}
-
-#Fashion {
-    color: green;
-}
-
 #gallery {
     text-align: center;
-    background-color: #000000;
-    border: 2px solid #C09AEF;
-    color: #C09AEF;
+    background-color: #3a4032;
+    border: 3px solid #7c4700;
+    color: white;
 }
 
-#lit {
-    border: 2px solid #C09AEF;
+#gallery h2,
+#blog h2 {
+    color: white
+}
+
+#blog {
+    border: 2px solid #7c4700;
     padding: 10px;
     border-width: 10px;
-    background-color: black;
+    background-color: #3a4032;
 }
 
 img {
@@ -90,7 +99,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 20px;
     }
 
     figure img {
@@ -134,14 +143,14 @@ img {
 }
 
 fieldset {
-    border: 2px solid #C09AEF;
+    border: 3px solid #7c4700;
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: #000000;
+    background-color: #3a4032;
 }
 
 legend {
-    background-color: #C09AEF;
+    background-color: #7c4700;
     color: white;
     padding: .5em;
 }
@@ -164,10 +173,75 @@ legend {
 }
 
 #contact button {
-    background-color: #C09AEF;
+    background-color: #7c4700;
     color: white;
-    border: 1px solid #4d4d4d;
+    border: 3px solid #7c4700;
     max-width: 400px;
     width: 50%;
     justify-self: center;
+}
+
+/* Video styling */
+#videoWrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#videoWrapper {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+#video {
+    width: 20%;
+    min-width: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myvideo {
+    border: 3px solid #7c4700;
+    width: 100%;
+}
+
+#map {
+    width: 20%;
+    min-width: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#googlemaps iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#googlemaps {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+#mymap {
+    border: 3px solid #7c4700;
+    width: 100%;
+}
+
+#number1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#number2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

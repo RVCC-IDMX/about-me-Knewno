@@ -20,6 +20,14 @@ h2 {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+
 header {
     text-align: center;
 }
@@ -198,4 +206,42 @@ legend {
 #myvideo {
     border: 3px solid #7c4700;
     width: 100%;
+}
+
+#map {
+    width: 20%;
+    min-width: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#googlemaps iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#googlemaps {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+#mymap {
+    border: 3px solid #7c4700;
+    width: 100%;
+}
+
+#number1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#number2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

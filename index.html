@@ -30,7 +30,7 @@
                 <ul>
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#blog">iFrame</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
@@ -95,105 +95,76 @@
             <hr>
             <figure>
                 <img src="img/nyc-night-640w.jpg.jpg">
-                <figcaption>A beautful picture of Times Square at night. I love being in cities at night and driving around. This picutre reminds me of times i spent in New York during the night.</figcaption>
+                <figcaption>A beautful picture of Times Square at night. I love being in cities at night and driving
+                    around. This picutre reminds me of times i spent in New York during the night.</figcaption>
             </figure>
 
             <hr>
             <figure>
                 <img src="img/cars-640w.jpg.jpg">
-                <figcaption>This is a Mustang GT, it's one of my favorie car becuase I love American muscle cars, and just the angry look over Dodge cars.</figcaption>
+                <figcaption>This is a Mustang GT, it's one of my favorie car becuase I love American muscle cars, and
+                    just the angry look over Dodge cars.</figcaption>
             </figure>
 
             <hr>
             <figure>
                 <img src="img/fashion-640w.jpg.jpg">
-                <figcaption>This is a closet of clothes. I really love fashion has and dressing nice, it's another hobby to me besides technology, so I had to show that off.</figcaption>
+                <figcaption>This is a closet of clothes. I really love fashion has and dressing nice, it's another hobby
+                    to me besides technology, so I had to show that off.</figcaption>
             </figure>
         </section>
 
         <article>
             <div id="blog">
-                <h2 class="CenteredWords">Lit Ipsum</h2>
+                <h2 class="CenteredWords">Embedded static Google map using iFrame</h2>
 
-                <p>"Oh, no, sir! He was too good and kind to leave me so. Why, all the morning he was saying to me that,
-                    whatever happened, I was to be true; and that even if something quite unforeseen occurred to
-                    separate us, I was always to remember that I was pledged to him, and that he would claim his pledge
-                    sooner or later. It seemed strange talk for a wedding-morning, but what has happened since gives a
-                    meaning to it."</p>
+                <p>Using Google Maps as an iFrame is one of easiest/basic things you can add to your website that can
+                    make it shine. What is an iFrame? Well an is an inline frame is a HTML element that loads another
+                    HTML page within your document. It essentially puts another webpage within the parent page. They are
+                    often used for advertisements, which are the pop ups you see around other websites. They are also
+                    used for embedded videos! So, what's embedded videos mean? well, that's simple! Embedding a video is
+                    where you add the video directly to your website, versus sending visitors to a different page to
+                    view it. Let's say for example that you've created an amazing piece of video content that you've
+                    uploaded to YouTube, which I have done below my bio. Since I have done that we'll be embedding
+                    Google Maps!</p>
 
-                <p>"Most certainly it does. Your own opinion is, then, that some unforeseen catastrophe has occurred to
-                    him?"</p>
+                <p> Now that you know how embedding and iFrame works, I can show you step by step the quickest and
+                    easiest way to add one to your website!</p>
 
-                <p>"Yes, sir. I believe that he foresaw some danger, or else he would not have talked so. And then I
-                    think that what he foresaw happened."</p>
+                <p>
+                <h2>Step 1:</h2>
+                </p>
 
-                <p>"But you have no notion as to what it could have been?"</p>
+                <p>You start by going to Google Maps, enter whatever address you like, click the share icon, and choose
+                    "Embed map" as shown below. </p>
 
-                <p>"None."</p>
+                <img src="img/number 1.png" width="500" height="400" id="number1">
 
-                <p>"One more question. How did your mother take the matter?"</p>
+                <p>
+                <h2>Step 2:</h2>
+                </p>
 
-                <p>"She was angry, and said that I was never to speak of the matter again."</p>
+                <p>Once you copy your code, you paste the embed code into your HTML page or widget, which is shown
+                    below. Keep in mind you can adjust the width and height the way you like it!</p>
 
-                <p>"And your father? Did you tell him?"</p>
+                <img src="img/number 2.png" width="1000" height="210" id="number2">
 
-                <p>"Yes; and he seemed to think, with me, that something had happened, and that I should hear of Hosmer
-                    again. As he said, what interest could anyone have in bringing me to the doors of the church, and
-                    then leaving me? Now, if he had borrowed my money, or if he had married me and got my money settled
-                    on him, there might be some reason, but Hosmer was very independent about money and never would look
-                    at a shilling of mine. And yet, what could have happened? And why could he not write? Oh, it drives
-                    me half-mad to think of it, and I can't sleep a wink at night." She pulled a little handkerchief out
-                    of her muff and began to sob heavily into it.</p>
+                <p>That's it! you can ad a section and a div to ad some CSS to your iFrame, which very wroth it when
+                    creating a good looking website. What I have below is the final result, an active embedded iFrame of
+                    google maps!</p>
 
-                <p>"I shall glance into the case for you," said Holmes, rising, "and I have no doubt that we shall reach
-                    some definite result. Let the weight of the matter rest upon me now, and do not let your mind dwell
-                    upon it further. Above all, try to let Mr. Hosmer Angel vanish from your memory, as he has done from
-                    your life."</p>
+                <p>
+                <h2>Final Result</h2>
+                </p>
 
-                <p>"Then you don't think I'll see him again?"</p>
+                <section id="map">
+                    <div id="googlemaps"><iframe id="mymap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.901505894222!2d-74.6881866!3d40.6099967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3937dc5acab1f%3A0x15e7f0de30681faa!2sRaritan%20Valley%20Community%20College!5e0!3m2!1sen!2sus!4v1702615369952!5m2!1sen!2sus"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
 
-                <p>"I fear not."</p>
-
-                <p>"Then what has happened to him?"</p>
-
-                <p>"You will leave that question in my hands. I should like an accurate description of him and any
-                    letters of his which you can spare."</p>
-
-                <p>"I advertised for him in last Saturday's Chronicle," said she. "Here is the slip and here are four
-                    letters from him."</p>
-
-                <p>"Thank you. And your address?"</p>
-
-                <p>"No. 31 Lyon Place, Camberwell."</p>
-
-                <p>"Mr. Angel's address you never had, I understand. Where is your father's place of business?"</p>
-
-                <p>"He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street."</p>
-
-                <p>"Thank you. You have made your statement very clearly. You will leave the papers here, and remember
-                    the advice which I have given you. Let the whole incident be a sealed book, and do not allow it to
-                    affect your life."</p>
-
-                <p>"You are very kind, Mr. Holmes, but I cannot do that. I shall be true to Hosmer. He shall find me
-                    ready when he comes back."</p>
-
-                <p>For all the preposterous hat and the vacuous face, there was something noble in the simple faith of
-                    our visitor which compelled our respect. She laid her little bundle of papers upon the table and
-                    went her way, with a promise to come again whenever she might be summoned.</p>
-
-                <p>Sherlock Holmes sat silent for a few minutes with his fingertips still pressed together, his legs
-                    stretched out in front of him, and his gaze directed upward to the ceiling. Then he took down from
-                    the rack the old and oily clay pipe, which was to him as a counsellor, and, having lit it, he leaned
-                    back in his chair, with the thick blue cloud-wreaths spinning up from him, and a look of infinite
-                    languor in his face.</p>
-
-                <p>"Quite an interesting study, that maiden," he observed. "I found her more interesting than her little
-                    problem, which, by the way, is rather a trite one. You will find parallel cases, if you consult my
-                    index, in Andover in '77, and there was something of the sort at The Hague last year. Old as is the
-                    idea, however, there were one or two details which were new to me. But the maiden herself was most
-                    instructive."</p>
-
-                <p>"You appeared to read a good deal upon her which was quite invisible to me," I remarked.</p>
             </div>
         </article>
 

@@ -108,6 +108,8 @@ main {
     margin: 1em;
     display: flex;
     align-items: center;
+    height:40px;
+    cursor:pointer;
 }
 
 .nav-toggle-label span,

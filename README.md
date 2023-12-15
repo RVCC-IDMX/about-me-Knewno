@@ -24,6 +24,12 @@ Text simple color `#FFFFFF`
 
 - Used Unsplash.com for the images in the Gallery
 
+- https://blog.duda.co/responsive-google-maps-for-your-website 
+
+- https://developers.google.com/maps/documentation/embed/embedding-map 
+
+- https://blog.hubspot.com/website/how-to-embed-google-map-in-html 
+
 ## License 
 
 MIT License
